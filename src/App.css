@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,48 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #805080;
+}
+.App {
+  margin-top: 5px;
+  width: 800px;
+  background: peachpuff;
+  border: 2px solid teal;
+}
+
+
+h1{
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-size: 40px;
+}
+.list {
+  list-style: none;
+}
+.itam {
+  display: flex;
+  flex-shrink: 1 1 auto;
+  justify-content: space-between;
+  border: 3px solid teal;
+  margin-top: 10px;
+  padding: 5px 15px;
+  width: 100%;
+}
+
+.done {
+  text-decoration : line-through;
+}
+
+.int {
+ margin-right: 5px;
 }
